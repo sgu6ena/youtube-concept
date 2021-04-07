@@ -3,7 +3,9 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .header {
@@ -13,6 +15,7 @@ body {
     padding-bottom: 20px;
     padding-left: 32px;
     padding-right: 70px;
+    margin-bottom: 50px;
 }
 
 .menu-button {
@@ -58,6 +61,7 @@ body {
     padding-right: 23px;
     background-color: transparent;
     border: none;
+    width: 100%;
 }
 
 .button-search {
@@ -94,4 +98,50 @@ body {
     height: 40px;
     border-radius: 50%;
     margin-left: 45px;
+}
+
+.sidebar {
+    padding-left: 32px;
+}
+
+.nav-menu {
+    margin-top: 0px;
+    margin-bottom: 60px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav-item {
+    margin-bottom: 28px;
+}
+
+.nav-link {
+    text-decoration: none;
+    fill: #898989;
+    color: #898989;
+    display: flex;
+    align-items: center;
+}
+
+.nav-link:hover {
+    color: red;
+    fill: red;
+    text-decoration: none;
+}
+
+.nav-text {
+    margin-left: 13px;
+}
+
+.nav-image {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+}
+
+.nav-title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    margin-bottom: 30px;
 }

@@ -6,3 +6,4 @@
 - CSS
 - Normalize CSS
 - SVG Sprite
+- Swiper slider
